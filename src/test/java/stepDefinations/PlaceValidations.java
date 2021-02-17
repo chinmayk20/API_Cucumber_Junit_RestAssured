@@ -10,7 +10,7 @@ public class PlaceValidations {
 
     @When("^I open the app$")
     public void iOpenTheApp() {
-
+        System.out.println("Test");
     }
 
     @Given("^I am a user$")
